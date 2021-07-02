@@ -1,0 +1,74 @@
+@import url("./theme.css");
+
+body {
+    background-image: url("../Pictures/Background_Images/Login.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+td {
+    text-align: justify;
+}
+
+.opaque p > a {
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.opaque p {
+    width: 100%;
+    text-align: center;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+    background: cornflowerblue;
+    background-color: white;
+}
+
+progress::-moz-progress-bar {
+    background: cornflowerblue;
+    background-color: white;
+}
+
+progress::-webkit-progress-value {
+    background: cornflowerblue;
+}
+
+progress::-webkit-progress-bar {
+    background-color: white;
+}
+
+button.contrast {
+    color: black;
+    margin-right: 50px;
+    cursor: pointer;
+    border: 2px solid black;
+    font-size: x-large;
+    padding: 15px 25px;    
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+button.contrast:hover {
+    background-color: black;
+    color: white;
+}
+
+textarea {
+    resize: none;
+    border-radius: 15px;
+    border: 2px solid grey;
+    width: 100%;
+    min-height: 200px;
+    outline: none;
+    padding: 25px;
+    font-size: large;
+}
+
+textarea:focus {
+    border: 2px solid cornflowerblue;
+    box-shadow: inset -2px -2px 20px cornflowerblue;
+}

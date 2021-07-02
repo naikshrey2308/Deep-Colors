@@ -1,0 +1,66 @@
+.confirm_container{
+    display:flex ;
+    flex-direction: column;
+    width: 50%;
+    
+    /* justify-content: center; */
+    align-items: center;
+    
+    background-color: aliceblue;
+    border: 3.2px dotted cornflowerblue;
+    margin: auto;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 20px;
+    
+}
+
+.image{
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    padding: 1px;
+    border: 2px solid tomato;
+}
+
+.confirm_details{
+    margin-top: 1rem;
+    line-height: 1.2rem;
+}
+
+input[type=number]{
+    width: 5rem;
+    border-radius: 10px;
+    border-style: inset;
+    outline: none;
+    background-color: rgb(240, 240, 240);
+    border-color: cornflowerblue;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.btn{
+    padding: 15px 25px;
+    cursor: pointer;
+    font-size: large;
+    margin-right: 2rem;
+    border: 2px solid cornflowerblue;
+    transition: 0.5s;
+}
+
+#btn-simple:hover { background-color: cornflowerblue; color: white}
+#btn-simple { background-color: transparent; color: cornflowerblue;}
+
+.form_for_quanitity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.read{
+    background-color: rgb(250, 112, 112);
+    color: white;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+}

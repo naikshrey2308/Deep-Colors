@@ -1,0 +1,54 @@
+@import url('theme_index.css');
+
+body {
+    background-image: linear-gradient(rgba(100, 148, 237, 0.2), rgba(255, 99, 71, 0.4));
+}
+
+.filter table, tr, td {
+    padding: 10px;
+}
+
+.filter input[type=checkbox] { 
+    margin: 5px; 
+    height: 15px;
+    width: 15px;
+}
+
+.filter {
+    display: inline-block;
+    margin-left: 15px;
+    border-bottom: 2px solid tomato;
+}
+
+.filter input[type=submit] {
+    border: 2px solid cornflowerblue;
+    padding: 5px 25px;
+    color: cornflowerblue;
+    font-size: x-large;
+    background-color: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.filter input[type=number] {
+    outline: none;
+    padding-left: 15px;
+}
+
+.filter input[type=submit] {
+    background-image: url(../Pictures/Icons/Filter.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-size: 20px 20px;
+    padding-left: 40px;
+}
+
+.filter_details details{
+    width: 100%; 
+}
+
+.filter_details summary {
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}

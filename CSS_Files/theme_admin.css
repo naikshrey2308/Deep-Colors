@@ -1,0 +1,65 @@
+* {
+    font-family: Calibri, "Times New Roman", cursive;
+}
+
+.success{
+    color:white;
+    background-color: green;
+}
+.unsuccess{
+    color:white;
+    background-color: red;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    font-size: 40px;
+}
+
+table.container {
+    width: 100%;
+    border: 2px solid cornflowerblue;
+    border-collapse: collapse;
+}
+
+.container th, td, tr {
+    text-align: center;
+    border: 2px solid cornflowerblue;
+    padding: 10px 20px;
+    font-size: large;
+}
+
+.container tr:hover {
+    background-color: rgba(211, 211, 211, 0.25);
+}
+
+.container th {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: x-large;
+}
+
+.container a {
+    text-decoration: none;
+    color: royalblue;
+    padding: 5px 10px;
+}
+
+#delete {
+    color: tomato;
+}
+
+#delete:hover {
+    background-color: rgba(255, 99, 71, 0.25);
+}
+
+.container a:hover {
+    background-color: rgba(100, 148, 237, 0.25);
+}
+
+.container a:visited {
+    color: royalblue;
+}

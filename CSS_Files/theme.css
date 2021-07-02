@@ -1,0 +1,70 @@
+h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+* { font-family: Calibri, cursive, "Times New Roman", sans-serif; }
+
+::selection {
+    background-color:tomato;
+    color: white;
+}
+
+::-moz-selection {
+    background-color:tomato;
+    color: white;
+}
+
+/*  ----------------------------        FORM        ---------------------------------------     */
+.register > table {
+    margin: auto;
+    font-size: x-large;
+    padding: 15px;
+}
+
+.register > table > tr, td { padding: 15px; text-align: center;}
+
+.register input {
+    font-size: x-large;
+    border: 2px dotted black;
+    outline: none;
+    padding-left: 25px;
+}
+
+.register input[type=submit], input[type=reset] {
+    padding: 15px 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.register input[type=submit] { background-color: transparent; color: cornflowerblue; border: 2px solid cornflowerblue; }
+.register input[type=reset] { background-color: transparent; color: tomato; border: 2px solid tomato; }
+
+.register input[type=submit]:hover { background-color: cornflowerblue; color: white;}
+.register input[type=reset]:hover { background-color: tomato; color: white;}
+
+
+/*      --------------------------          FLOATING WINDOW CLASS       -----------------------------       */
+div.opaque {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 50px;
+    width: fit-content;
+    padding: 50px;
+    margin: auto;
+}
+
+.errortext, .successtext {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.errortext {
+    color: red;
+}
+
+.successtext {
+    color: green;
+}

@@ -1,0 +1,66 @@
+@import url("../CSS_Files/theme_login.css");
+
+body {
+    background-image: url("../Pictures/Background_Images/pay.jfif");
+}
+
+select > option, select {
+    font-size: x-large; 
+    padding: 0px 15px;
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.5);
+}
+
+select > option:focus, select:focus {
+    border: none;
+    border-bottom: 2px solid tomato;
+    background-color: white;
+    transform: translateX(25px);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    outline: none;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.register > table > tr, td {
+    text-align: left;
+}
+
+.register td > img {
+    width: 20px;
+    height: 20px;
+}
+
+.register input[type=text], input[type=email], input[type=date] {
+    border: none;
+    border-radius: 0px;
+    background-color: rgba(211, 211, 211, 0.5);
+    outline: 1px solid black;
+}
+
+.register textarea {
+    resize: none;
+    width: 100%;
+    min-height: 150px;
+    padding: 15px;
+    font-size: large;
+    box-sizing: border-box; 
+    outline: 1px solid black;
+    background-color: rgba(211, 211, 211, 0.5);
+    border: none;
+}
+
+.register input:focus, textarea:focus {
+    border-bottom: 2px solid tomato;
+    background-color: white;
+    outline: none;
+    transform: translateX(25px);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}

@@ -1,0 +1,12 @@
+@import url("./theme.css");
+
+body {
+    background-image: url("../Pictures/Background_Images/Login.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.opaque {
+    margin-top: 8%;
+}

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: x-large;
+    font-family: Calibri, "Times New Roman", cursive, sans-serif;
+}
+
+.cloth_container{
+    margin: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+}
+
+.cloth_container{
+    max-width: 70%;
+}
+
+.cloth_container > div {
+    margin-left: 8.4rem;
+}
+
+.cloth_container .cloth_details{
+    text-align: left;
+}
+
+.btn{
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    margin-right: 2rem;
+    color: white;
+}
+
+.submit_buttons .btn{
+    margin-right: 0.2rem;
+    
+}
+
+#btn-simple { background-color: transparent; color: cornflowerblue; border: 2px solid cornflowerblue; }
+#btn-contrast { background-color: transparent; color: tomato; border: 2px solid tomato; }
+
+#btn-simple:hover { background-color: cornflowerblue; color: white; }
+#btn-contrast:hover { background-color: tomato; color: white; }
+
+.forms{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.forms .form1 , .forms .form2 {
+    margin-right: 1rem;
+}

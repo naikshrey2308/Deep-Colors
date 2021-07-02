@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: x-large;
+    font-family: Calibri, "Times New Roman", cursive, sans-serif;
+}
+
+
+nav{
+    display: flex;
+    background-color: cornflowerblue;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar_left ul > li:hover {
+    background-color: royalblue;
+}
+
+.navbar_left ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+::-webkit-scrollbar { background: lightblue; }
+::-webkit-scrollbar-thumb { background: royalblue; }
+
+.navbar_left ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px 25px;  
+}
+
+.navbar_right a{
+    padding-right :30px;
+}
+
+/* css for logo */
+.logo img{
+    width: 250px; 
+    display: block; 
+    margin: auto;
+    cursor: pointer;
+}
+
+div.logo {
+    background-color: rgb(53,56,57);
+    border-bottom: 4px solid lightgray;
+    align-self: flex-start;
+}
+
+/*  -----------------------------------     SECTIONS OF THE ABOUT PAGE      -----------------------------   */
+div.section {
+    width: 25%;
+    float: left;
+    text-align: justify;
+    padding: 15px;
+}
+
+.section h2 { text-align: center; };
+
+/* --------------------------------dropdown-------------------------- */
+
+    /* .biggest_deals{
+        margin: 20px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .blocks{
+        width: 300px;
+    } */
+
+    .dropdown , .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        font-weight: 700;
+        background-color: inherit;
+        margin: 0;
+    }
+
+    .dropbtn { background-color: inherit; border: none; color: white; cursor: pointer; }
+  
+    li:hover{
+        background-color: rgb(22, 110, 241);
+    }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* .dropdown:hover .dropdown-content {
+    display: block;
+  } */
+
+  .dropdown_hover:hover .dropdown-content {
+    display: block;
+  }
+
+  h1{
+    margin: 50px 45%;
+
+}
+/* ----------------------  css for biggest_deals  --------------------------*/
+.biggest_deals{
+    margin: 0 0; 
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(236, 236, 236);
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.blocks{
+    margin: 5px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.blocks a img{
+    width: 475px;
+    height: 300px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 4px solid tomato;
+}
+
+/* ----------------------  css for categories  --------------------------*/
+
+.categories{
+    margin: 30px 0 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categories > .rounds > a > img{
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+    margin: 15px 40px;
+
+}
+
+.categories > .rounds{
+    padding: 20px;
+    margin: 10px 20px;
+    border-radius: 20px;
+}
+
+.categories > .rounds:hover {
+    background-color: rgba(100, 148, 237, 0.25);
+}
+
+/* ------------ category for men , women and children ------------ */
+
+.cloth_container{
+    margin: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid cornflowerblue;
+}
+
+.cloth_container{
+    max-width: 70%;
+    border-radius: 5px;
+}
+
+.cloth_container > div {
+    margin-left: 8.4rem;
+}
+
+.cloth_container .cloth_details{
+    text-align: left;
+}
+
+.btn{
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    margin-right: 2rem;
+    background-color: transparent;
+    transition: 0.75s;
+}
+
+.submit_buttons .btn{
+    margin-right: 0.2rem;
+    
+}
+
+#btn-simple { background-color: transperant; color: cornflowerblue; border: 2px solid cornflowerblue;}
+#btn-contrast { background-color: transperant; color: tomato; border: 2px solid tomato;}
+
+#btn-simple:hover { background-color: cornflowerblue; color: white;}
+#btn-contrast:hover { background-color: tomato; color: white;}
+
+.forms{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    align-self: center;
+}
+
+.forms .form1 , .forms .form2 {
+    margin-right: 1rem;
+}

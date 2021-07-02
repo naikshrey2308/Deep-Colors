@@ -1,0 +1,133 @@
+@import url("./theme_index.css");
+
+*{
+  box-sizing: border-box;
+}
+.container {
+	min-height: 500px;
+    text-align: center;
+    /* overflow:hidden; */
+    /* color: white; */
+	background-image: url("../Pictures/Background_Images/b-4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  }
+
+  .welcome{
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    text-shadow: 2px 2px 10px #fa9c78;
+    font-weight: 500;
+	background-color: rgba(255, 255, 255, 0.75);
+	padding-top: 25px;
+	padding-bottom: 25px;
+  }
+.slogan {
+    font-size: xx-large;
+    width: 40%;
+	margin-left: 50%;
+    font-weight:bolder;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  	background-image: linear-gradient(270deg, red, rgb(22, 94, 228), rgb(255, 140, 0));
+	color:transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	margin-top: 100px;
+
+  }
+  .wardrobe{
+    width: 40%;
+	margin-left: 50%;
+  }
+
+  .read_more_btn{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding:0.4rem;
+    background-color: transparent;
+    color:cornflowerblue;
+    border:2px solid cornflowerblue;
+  }
+
+  .read_more_btn:hover{
+    background-color: cornflowerblue;
+    color: white;
+    transition: 1s;
+  }
+
+  a{
+    text-decoration: none;
+    color:cornflowerblue;
+  }
+  a:visited{
+    color: cornflowerblue;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+  /* -------------animation ----------- */
+
+  .slogan, .wardrobe{
+    animation: slidein 1.5s;
+    transition-timing-function: ease-in-out;
+  }
+
+  @keyframes slidein{
+    from{
+      margin-left: 80%;
+      opacity: 0%;
+    }
+
+    to{
+      margin-left: 50%;
+      opacity: 100%;
+    }
+  }
+
+@keyframes flip {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+div.card_container {
+  padding-top: 50px;
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.card_container > div {
+	width: 23%;
+	margin-right: 0.5%;
+	box-sizing: border-box;
+	padding: 10px 25px;
+	box-shadow: 2px 2px 8px lightgray;
+	min-height: 500px;
+}
+
+.card_container h3 { text-align: center; color: royalblue; }
+
+.card_container > div > img {
+	width: 40%;
+	margin-left: 30%;
+	border-radius: 50%;
+	box-shadow: 4px 4px 4px gray;
+	margin-bottom: 15px;
+}
+
+.card_container > div > p {
+	font-size: 20px;
+	text-align: justify;
+}
